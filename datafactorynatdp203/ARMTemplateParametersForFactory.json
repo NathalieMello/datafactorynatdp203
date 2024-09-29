@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactorynatdp203"
+		},
+		"datalakeaccountnat_LinkedServer_accountKey": {
+			"value": ""
+		},
+		"datapool_PoolActivityLog_LinkedServer_password": {
+			"value": ""
+		},
+		"datalakeaccountnat_LinkedServer_properties_typeProperties_url": {
+			"value": "https://datalakeaccountnat.dfs.core.windows.net/"
+		},
+		"datapool_PoolActivityLog_LinkedServer_properties_typeProperties_server": {
+			"value": "tcp:dataworkspacenat.sql.azuresynapse.net,1433"
+		},
+		"datapool_PoolActivityLog_LinkedServer_properties_typeProperties_database": {
+			"value": "datapool"
+		},
+		"datapool_PoolActivityLog_LinkedServer_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		}
+	}
+}
